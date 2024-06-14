@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interior Design Office</title>
+    <link rel="stylesheet" href="body.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="Interior Design Office Logo" class="logo">
+            <h1>Interior Design Office</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="welcome-section">
+            <h2>Welcome to Our Interior Design Office</h2>
+            <p>We bring elegance and functionality to your living spaces.</p>
+        </section>
+
+        <aside id="services" class="services-section">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Residential Design</li>
+                <li>Commercial Design</li>
+                <li>Space Planning</li>
+                <li>Color Consultation</li>
+            </ul>
+        </aside>
+    </main>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <a href="project1.html"><img src="project1.jpg" alt="Project 1"></a>
+            <a href="project2.html"><img src="project2.jpg" alt="Project 2"></a>
+            <a href="project3.html"><img src="project3.jpg" alt="Project 3"></a>
+            <a href="project4.html"><img src="project4.jpg" alt="Project 4"></a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Interior Design Office. All rights reserved.</p>
+    </footer>
+</body>
+</html>
